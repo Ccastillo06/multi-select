@@ -1,7 +1,11 @@
 {
   "name": "multi-select",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Ccastillo06"
+  },
+  "license": "MIT",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -13,6 +17,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "styled-components": "^5.1.1",
     "typescript": "^3.7.5"
   },
   "scripts": {
@@ -35,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.2"
   }
 }
